@@ -1,3 +1,4 @@
+Works in both Windows and Linux.
 # build_plugin.rb
 
 Generates a valid OpenC3/COSMOS plugin (gem) from a QMK/VIA-style keyboard
@@ -29,6 +30,7 @@ packaged into a `.gem` and installed into an OpenC3 instance.
    cd openc3-cosmos-<keyboard_name>
    gem build openc3-cosmos-<keyboard_name>.gemspec
    openc3.sh cli load openc3-cosmos-<keyboard_name>-1.0.0.gem
+   (or openc3.bat cli load openc3-cosmos-<keyboard_name>-1.0.0.gem)
    ```
    (adjust the load command for however your OpenC3 instance is invoked —
    `openc3cli`, a running container, etc.)
